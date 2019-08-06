@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.seleniumdemo.common.Base;
 import org.seleniumdemo.pageobject.HomePage;
 import org.seleniumdemo.pageobject.SearchResultPage;
-
 import static org.junit.Assert.assertTrue;
 
 public class SearchTest extends Base {
