@@ -16,7 +16,7 @@ public class SearchTest extends Base {
         homePage.loadHomePage();
         homePage.search("dress");
 
-        boolean isDressDisplayed = searchResultPage.isResultItemDisplayed("Printed Dress");
+        boolean isDressDisplayed = searchResultPage.isResultItemDisplayed("Printed Dress Test");
         assertTrue(isDressDisplayed);
     }
 }
